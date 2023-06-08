@@ -1,0 +1,16 @@
+--Create a retail store database
+
+CREATE TABLE shopfront (id INTEGER PRIMARY KEY, item TEXT, quantity INTEGER, colour_range TEXT, brand TEXT, price INTEGER, sizes INTEGER);
+
+INSERT INTO shopfront VALUES ("1", "trousers", "102", "red, blue, green", "carhartt", "49.99", "8, 12, 18");
+INSERT INTO shopfront VALUES ("2", "jeans", "45", "lilac, red, green", "nike", "26.82", "8, 18, 22");
+INSERT INTO shopfront VALUES ("3", "socks", "12", "red, lilac, pink", "none", "2.00", "6, 8, 18");
+SELECT * FROM shopfront;
+
+--display the stock amount.
+SELECT SUM(quantity) FROM shopfront
+
+
+--display the table ordered by price. 
+SELECT * FROM shopfront
+ORDER BY price desc;
