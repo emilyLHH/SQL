@@ -1,4 +1,4 @@
 # SQL
 Emily Howland's SQL portfolio
 
-Welcome to my SQL portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions @emhowland22@gmail.com
+Welcome to my SQL portfolio! This code repository contains examples of SQL I've written. Feel free to take a look and reach out if you have any questions @emilyhowland2203@gmail.com
